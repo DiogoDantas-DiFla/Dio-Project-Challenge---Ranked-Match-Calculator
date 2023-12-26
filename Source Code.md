@@ -37,7 +37,7 @@ public class RankedMatchCalculator {
     static void CalculateRankedMatch(int numWins, int numDefeats) {
         int rankingBalance = numWins - numDefeats;
 
-        if (rankingBalance < 10) {
+        if (rankingBalance <= 10) {
             JOptionPane.showMessageDialog(null, "The Hero has a Ranking Balance of " + rankingBalance +
                     " and he/she is at Iron level", "Hero Ranking", JOptionPane.PLAIN_MESSAGE);
         } else if (rankingBalance >= 11 && rankingBalance <= 20) {
@@ -55,11 +55,12 @@ public class RankedMatchCalculator {
         } else if (rankingBalance >= 91 && rankingBalance <= 100) {
             JOptionPane.showMessageDialog(null, "The Hero has a Ranking Balance of " + rankingBalance +
                     " and he/she is at Legendary level", "Hero Ranking", JOptionPane.PLAIN_MESSAGE);
-        } else if (rankingBalance >= 101) {
+        } else {
             JOptionPane.showMessageDialog(null, "The Hero has a Ranking Balance of " + rankingBalance +
                     " and he/she is at Immortal level", "Hero Ranking", JOptionPane.PLAIN_MESSAGE);
         }
     }
 
 }
+
 ```

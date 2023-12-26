@@ -8,4 +8,4 @@ The idea of this challenge is to create a program, no matter the programming lan
 
 ## Prerequisites for running the project
 - JDK 8+ (I'm using JDK 17)
-- IDE for Java development (I'm using IntelliJ IDEA Community Edition version 2023.3.5)
+- IDE for Java development (I'm using IntelliJ IDEA Community Edition version 2023.3.1)
